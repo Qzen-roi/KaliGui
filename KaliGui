@@ -1,0 +1,33 @@
+###BANNER
+Gray=` echo -en "\e[47m" `; echo "${Gray}#########################################################################################${Gray}"
+printf "\n"
+blue=` echo -en "\e[34m" `; echo "${blue}#                                                                                      ##${blue}";
+blue=` echo -en "\e[34m" `; echo "${blue}#     bbb                      bbb   N//         MM       /NNNNNNM/                    ##${blue}";
+blue=` echo -en "\e[34m" `; echo "${blue}#      bbb                    bbb    NN/M          MM    //        MM                  ##${blue}";  blue=` echo -en "\e[34m" `; echo "${blue}#       bbb                  bbb     NN  M/         MM   M|          MM                ##${blue}";
+blue=` echo -en "\e[34m" `; echo "${blue}#        bbb                bbb      NN   M/        MM   M|           M                ##${blue}";
+blue=` echo -en "\e[34m" `; echo "${blue}#         bbb              bbb       MM     M/      MM   MM                            ##${blue}";
+blue=` echo -en "\e[34m" `; echo "${blue}#          bbb            bbb        NN      M/     MM   NM                            ##${blue}";
+blue=` echo -en "\e[34m" `; echo "${blue}#           bbb          bbb         NN       M/    HM   MM                            ##${blue}";  blue=` echo -en "\e[34m" `; echo "${blue}#            bbb        bbb          NN        M/   MH   MM                            ##${blue}";  blue=` echo -en "\e[34m" `; echo "${blue}#             bbb      bbb           NN         M/  MH   MM                            ##${blue}";
+blue=` echo -en "\e[34m" `; echo "${blue}#              bbb    bbb            NN          M/ HN   MM        _ _                 ##${blue}";  blue=` echo -en "\e[34m" `; echo "${blue}#               bbb  bbb             NN           M/HN   MM        II/                 ##${blue}";
+blue=` echo -en "\e[34m" `; echo "${blue}#                bbb bb              NN            MM/    MM     III/                  ##${blue}";
+blue=` echo -en "\e[34m" `; echo "${blue}#                  bb                NN            M/      \MMMMMMI/                   ##${blue}";
+
+printf "\n"
+
+Red=` echo -en "\e[31m" `; echo "${Red }######################################### Ranjit Rai ######################################${Red}"
+
+########
+sudo apt update; sudo apt-get --fix-missing; sudo apt install  tightvncserver dbus-x11 -y;sudo apt-get install xfce4 xfce4-whiskermenu-plugin -y ; sudo apt  apache2 leafpad firefox-esr -y;apt install kali-themes qterminal -y;
+########
+printf "\n"
+printf "\n"
+
+cd /bin;echo "vncserver -geometry 1920x1080" > vncstart;echo "vncserver -kill :1" > vncstop; chmod 777 vncstart; chmod 777 vncstop ; cd ~;
+sleep 5
+blue=` echo -en "\e[34m" `;echo "${blue}Run vncstart command for starting the Vncserver";sleep 4;
+
+blue=` echo -en "\e[34m" `;echo "${blue}Run vncstop command for stoping the Vncsever"; sleep 3;
+############
+printf "\n"
+printf "\n"
+sleep 2 ;green=` echo -en "\e[32m" `; echo "${green}                    vncstart                 ${green}"; 
